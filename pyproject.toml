@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "python-cloudflare-stream"
+version = "0.1.0"
+description = "A Python wrapper for Cloudflare Stream's API"
+readme = "README.rst"
+homepage = "https://github.com/arbington/python-cloudflare-stream"
+repository = "https://github.com/arbington/python-cloudflare-stream"
+authors = ["Kalob Taulien <kalob.taulien@gmail.com>"]
+keywords = ["cloudflare", "stream", "python", "api"]
+classifiers=[
+    'Environment :: Web Environment',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
